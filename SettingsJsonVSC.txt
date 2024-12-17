@@ -1,0 +1,33 @@
+{
+    "window.restoreWindows": "none", // Não restaura janelas de projetos anteriores ao reiniciar o VS Code.
+    "workbench.colorTheme": "Dracula Theme", // Define o tema de cor como "Dracula Theme".
+    "workbench.startupEditor": "none", // Abre um novo arquivo sem título ao iniciar.
+    "workbench.iconTheme": "material-icon-theme", // Define o tema de ícones como "symbols".
+    "explorer.compactFolders": false, // Não compacta pastas no explorador.
+    "editor.minimap.enabled": false, // Desativa o minimapa.
+    "editor.renderLineHighlight": "gutter", // Destaca a linha ativa no espaço da margem.
+    "editor.fontSize": 18, // Define o tamanho da fonte como 12.
+    "editor.fontFamily": "JetBrains Mono", // Altera a fonte do editor para "JetBrains Mono".
+    "editor.formatOnSave": true, // Formata automaticamente o código ao salvar.
+    "files.autoSave": "afterDelay", // Salva as alterações automáticamente.
+    "editor.lineHeight": 1.6, // Ajusta a altura da linha para 1.6.
+    //"editor.rulers": [80, 140], // Adiciona réguas verticais nas colunas 80 e 140.
+    "editor.fontLigatures": true, // Ativa ligaduras de fontes.
+    "editor.wordBasedSuggestions": "off", // Desativa sugestões baseadas em palavras.
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // Define o Prettier como formatador padrão do editor.
+    "workbench.editor.labelFormat": "short", // Exibe nomes curtos das abas do editor.
+    "editor.formatOnType": true, // Formata automaticamente o código ao digitar.
+    "breadcrumbs.enabled": false, // Desativa breadcrumbs (Caminhos no topo do Editor).
+    //"editor.tabCompletion": "onlySnippets", // Completa tabs apenas para snippets.
+    "symbols.hidesExplorerArrows": true, // Exibe setas nos ícones do explorador.
+    "material-icon-theme.hidesExplorerArrows": false, // Exibe setas nos ícones do explorador.
+    "editor.selectionHighlight": true, // Ativa o destaque de seleção.
+    "editor.suggestSelection": "first", // Seleciona a primeira sugestão automaticamente.
+    "git.openRepositoryInParentFolders": "never", // Nunca abre repositórios Git em pastas principais.
+    "prettier.printWidth": 150, // Define a largura máxima da linha no Prettier para 150 caracteres.
+    "prettier.trailingComma": "es5", // Adiciona vírgulas finais de acordo com o padrão ES5 no Prettier.
+    "prettier.tabWidth": 4, // Define a largura do tab no Prettier como 4 espaços.
+    "prettier.semi": true, // Adiciona ponto e vírgula ao final das linhas no Prettier.
+    "prettier.singleQuote": true,
+    "window.newWindowProfile": "Padrão" // Usa aspas simples no Prettier.
+}
