@@ -8,15 +8,16 @@
     "editor.renderLineHighlight": "gutter", // Destaca a linha ativa no espaço da margem.
     "editor.fontSize": 18, // Define o tamanho da fonte como 12.
     "editor.fontFamily": "JetBrains Mono", // Altera a fonte do editor para "JetBrains Mono".
-    "editor.formatOnSave": true, // Formata automaticamente o código ao salvar.
+    "editor.formatOnSave": true, // Formatação automática do código ao salvar o arquivo.
+    "editor.formatOnPaste": true, //  Formatação automática do código ao colar conteúdo no editor.
+    "editor.formatOnType": true, // Formata automaticamente o código ao digitar.
     "files.autoSave": "afterDelay", // Salva as alterações automáticamente.
     "editor.lineHeight": 1.6, // Ajusta a altura da linha para 1.6.
     //"editor.rulers": [80, 140], // Adiciona réguas verticais nas colunas 80 e 140.
     "editor.fontLigatures": true, // Ativa ligaduras de fontes.
     "editor.wordBasedSuggestions": "off", // Desativa sugestões baseadas em palavras.
     "editor.defaultFormatter": "esbenp.prettier-vscode", // Define o Prettier como formatador padrão do editor.
-    "workbench.editor.labelFormat": "short", // Exibe nomes curtos das abas do editor.
-    "editor.formatOnType": true, // Formata automaticamente o código ao digitar.
+    "workbench.editor.labelFormat": "default", // Exibe nomes curtos das abas do editor.
     "breadcrumbs.enabled": false, // Desativa breadcrumbs (Caminhos no topo do Editor).
     //"editor.tabCompletion": "onlySnippets", // Completa tabs apenas para snippets.
     "symbols.hidesExplorerArrows": true, // Exibe setas nos ícones do explorador.
@@ -29,5 +30,9 @@
     "prettier.tabWidth": 4, // Define a largura do tab no Prettier como 4 espaços.
     "prettier.semi": true, // Adiciona ponto e vírgula ao final das linhas no Prettier.
     "prettier.singleQuote": true,
-    "window.newWindowProfile": "Padrão" // Usa aspas simples no Prettier.
+    "window.newWindowProfile": "Padrão",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false, // Usa aspas simples no Prettier.
+    "editor.mouseWheelZoom": true, // Zoom Scroll mouse
 }
